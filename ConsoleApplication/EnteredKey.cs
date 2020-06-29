@@ -54,10 +54,6 @@ namespace ConsoleApplication
                 case ConsoleKey.Y:
                     key = (char)KeyStatus.Yes;
                     break;
-                case ConsoleKey.Backspace:
-                    break;
-                default:
-                    break;
             }
         }
     }

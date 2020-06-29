@@ -8,7 +8,6 @@ namespace ConsoleApplication
         Yes = 'y',
         RandomJokes = 'r',
         Category = 'c',
-        End = 'q',
         KeyZero = 0,
         KeyOne = 1,
         KeyTwo = 2,

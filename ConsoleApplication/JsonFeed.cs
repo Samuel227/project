@@ -28,7 +28,7 @@ namespace ConsoleApplication
                 int nameLength = index + length;
                 string firstPart = joke.Substring(0, index);
                 string secondPart = joke.Substring(0 + nameLength, joke.Length - nameLength);
-                joke = firstPart + " " + firstName + " " + lastName + secondPart;
+                joke = $"{ firstPart } { firstName } { lastName } { secondPart }";
             }
 
             return new string[] { JsonConvert.DeserializeObject<dynamic>(joke).value };

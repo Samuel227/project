@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 namespace ConsoleApplication
 {
     /// <summary>
-    /// This class print to console
+    /// This class print to console.
     ///Contains all methods for performing printing
     /// </summary>
     public class ConsolePrinter

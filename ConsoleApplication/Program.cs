@@ -101,12 +101,10 @@ namespace ConsoleApplication
             }
         }
 
-        /// <summary>
-        /// main method
-        /// </summary>
         static void Main(string[] args)
         {
             printer.Value(Constants.GetInstructions).ToString();
+            Program pj = new Program();
             StartJoke();
         }
     }
