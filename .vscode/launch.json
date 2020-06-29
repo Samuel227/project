@@ -16,9 +16,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/ConsoleApp1/bin/Debug/netcoreapp3.1/JokeGenerator.dll",
+            "program": "${workspaceFolder}/ConsoleApplication/bin/Debug/netcoreapp3.1/JokeGenerator.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/ConsoleApp1",
+            "cwd": "${workspaceFolder}/ConsoleApplication",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
