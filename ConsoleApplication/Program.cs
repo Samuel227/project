@@ -104,7 +104,6 @@ namespace ConsoleApplication
         static void Main(string[] args)
         {
             printer.Value(Constants.GetInstructions).ToString();
-            Program pj = new Program();
             StartJoke();
         }
     }
