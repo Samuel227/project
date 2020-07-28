@@ -2,15 +2,10 @@
 
 namespace ConsoleApplication
 {
-    /// <summary>
-    /// This class print to console.
-    ///Contains all methods for performing printing
-    /// </summary>
+
     public class ConsolePrinter
     {
-        /// <summary>
-        /// <see cref="Object"/> print value
-        /// </summary>
+
         public static object PrintValue;
 
         /// <summary>
